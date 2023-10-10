@@ -1,0 +1,73 @@
+/* Styles de base */
+body {
+    font-family: Arial, sans-serif;
+    background-color: BLUE;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color:blue;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Styles pour la liste des images partagées */
+.photo-feed {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.photo-feed img {
+    max-width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Styles pour les boutons de partage et de capture */
+footer {
+    text-align: center;
+    background-color: #fff;
+    padding: 10px 0;
+}
+
+footer button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+/* Styles pour les boutons "Aimer" et "Télécharger" */
+.like-button, .download-button {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #333;
+}
+
+/* Styles pour les boutons actifs */
+.like-button.active {
+    background-color: #ff5733;
+    color: #fff;
+    border: 1px solid #ff5733;
+}
+
+.download-button.active {
+    background-color: #33ff33;
+    color: #fff;
+    border: 1px solid #33ff33;
+}
